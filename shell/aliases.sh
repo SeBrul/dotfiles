@@ -20,7 +20,6 @@ dfu() {
 
 # git
 alias gitr='cd "$(git root)"'
-alias gitgl = git log --oneline --all --graph
 
 # Create a directory and cd into it
 mcd() {
