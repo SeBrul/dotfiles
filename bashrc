@@ -3,9 +3,9 @@
 #source ~/.shell/functions.sh
 
 # Allow local customizations in the ~/.shell_local_before file
-if [ -f ~/.shell_local_before ]; then
-    source ~/.shell_local_before
-fi
+#if [ -f ~/.shell_local_before ]; then
+#    source ~/.shell_local_before
+#fi
 
 # Allow local customizations in the ~/.bashrc_local_before file
 #if [ -f ~/.bashrc_local_before ]; then
@@ -31,9 +31,9 @@ source ~/.shell/aliases.sh
 #source ~/.bash/plugins.bash
 
 # Allow local customizations in the ~/.shell_local_after file
-#if [ -f ~/.shell_local_after ]; then
-#    source ~/.shell_local_after
-#fi
+if [ -f ~/.shell_local_after ]; then
+    source ~/.shell_local_after
+fi
 
 # Allow local customizations in the ~/.bashrc_local_after file
 #if [ -f ~/.bashrc_local_after ]; then
