@@ -16,8 +16,8 @@
 
 # Settings
 source ~/.zsh/settings.zsh
-if [ -f ~/.zsh/settings_local.zsh ]; then
-    source ~/.zsh/settings_local.zsh
+if [ -f ~.zsh_settings_local.zsh ]; then
+    source ~.zsh_settings_local.zsh
 fi
 
 # # Bootstrap
@@ -27,7 +27,7 @@ fi
 # source ~/.shell/external.sh
 
 # Aliases
-source ~/.shell/aliases.sh
+# source ~/.shell/aliases.sh
 
 # # Custom prompt
 # source ~/.zsh/prompt.zsh
