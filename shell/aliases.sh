@@ -11,15 +11,14 @@ alias l='ls'
 alias cp='cp -i'
 alias mv='mv -i'
 
+alias gitro='cd "$(git rev-parse --show-toplevel)"'
+
 # Update dotfiles
 dfu() {
     (
         cd ~/.dotfiles && git pull --ff-only && ./install -q
     )
 }
-
-# git
-alias gitr='cd "$(git root)"'
 
 # Create a directory and cd into it
 mcd() {
