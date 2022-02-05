@@ -27,14 +27,14 @@ fi
 # source ~/.shell/external.sh
 
 # Aliases
-# source ~/.shell/aliases.sh
+source ~/.shell/aliases.sh
 
 # # Custom prompt
 # source ~/.zsh/prompt.zsh
 
 # # External plugins (initialized after)
 # source ~/.zsh/plugins_after.zsh
-
+:
 # # Allow local customizations in the ~/.shell_local_after file
 # if [ -f ~/.shell_local_after ]; then
 #     source ~/.shell_local_after
