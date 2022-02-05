@@ -16,8 +16,8 @@
 
 # Settings
 source ~/.zsh/settings.zsh
-if [ -f ~.zsh_settings_local.zsh ]; then
-    source ~.zsh_settings_local.zsh
+if [ -f ~/.zsh_settings_local.zsh ]; then
+    source ~/.zsh_settings_local.zsh
 fi
 
 # # Bootstrap

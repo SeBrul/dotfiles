@@ -1,0 +1,31 @@
+[alias]
+	co = checkout
+	gl = log --oneline --all --graph
+	pwd = !pwd
+	st = status -sb
+	update-submodules = submodule update --init --recursive
+	upgrade-submodules = submodule update --init --remote
+
+[credential]
+	helper = store
+
+[core]
+	excludesfile = ~/.gitignore_global
+
+[color "grep"]
+	match = cyan bold
+	selected = blue
+	context = normal
+	filename = magenta
+	linenumber = green
+	separator = yellow
+	function = blue
+
+[grep]
+	lineNumber = true
+
+[include]
+    path = ~/.gitconfig_local
+
+[init]
+	defaultBranch = master
