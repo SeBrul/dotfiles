@@ -2,9 +2,9 @@
 # source ~/.shell/functions.sh
 
 # # Allow local customizations in the ~/.shell_local_before file
-# if [ -f ~/.shell_local_before ]; then
-#     source ~/.shell_local_before
-# fi
+ if [ -f ~/.shell_local_before ]; then
+     source ~/.shell_local_before
+ fi
 
 # # Allow local customizations in the ~/.zshrc_local_before file
 # if [ -f ~/.zshrc_local_before ]; then
@@ -16,9 +16,6 @@
 
 # Settings
 source ~/.zsh/settings.zsh
-if [ -f ~/.zsh_settings_local.zsh ]; then
-    source ~/.zsh_settings_local.zsh
-fi
 
 # # Bootstrap
 # source ~/.shell/bootstrap.sh

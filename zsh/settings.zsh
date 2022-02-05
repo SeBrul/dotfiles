@@ -7,9 +7,11 @@ ZSH_CUSTOM=$ZSH/custom/
 plugins=(
     git
     zsh-autosuggestions
+    zsh-syntax-highlighting
     )
 source $ZSH/oh-my-zsh.sh
 
+# HSTR plugin required
 export HSTR_CONFIG=hicolorr
 alias hh=hstr                    # hh to be alias for hstr
 setopt histignorespace           # skip cmds w/ leading space from history
