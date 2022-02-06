@@ -1,5 +1,5 @@
 ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="gruvbox"
+ZSH_THEME="robbyrussell"
 SOLARIZED_THEME="dark"
 
 ZSH_CUSTOM=$ZSH/custom/
@@ -7,7 +7,7 @@ ZSH_CUSTOM=$ZSH/custom/
 plugins=(
     git
     zsh-autosuggestions
-    #zsh-syntax-highlighting
+    zsh-syntax-highlighting
     )
 source $ZSH/oh-my-zsh.sh
 

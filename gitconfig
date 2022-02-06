@@ -1,10 +1,31 @@
 [alias]
+  	br = branch -vv
+	bra = branch -vv --all
+	bed = branch --edit-description
+	aa = add --all :/
+	ca = commit --amend -v
+	ci = commit -v
 	co = checkout
+    dc = diff --cached
+	dcs = diff --cached --stat
+	dcw = diff --cached --color-words
+	dh = diff HEAD~
+	dhs = diff HEAD~ --stat
+	dhw = diff HEAD~ --color-word	
+	di = diff
+	dis = diff --stat
+	diw = diff --word-diff
+    dt = difftool
+	ff = merge --ff-only
 	gl = log --oneline --all --graph
+	grp = grep -C 1
+    mt = mergetool
 	pwd = !pwd
+	save = commit -a -m "Save"
 	st = status -sb
-	update-submodules = submodule update --init --recursive
+    update-submodules = submodule update --init --recursive
 	upgrade-submodules = submodule update --init --remote
+    wdw  = log --date=relative --pretty='format:%C(yellow)%h%Creset %C(bold blue)%an%Creset %C(bold green)%cr%Creset %s' %who did what
 
 [credential]
 	helper = store
